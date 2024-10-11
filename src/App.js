@@ -12,10 +12,10 @@ function App() {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/content" element={<Content />} />
-          <Route path="/taxonomy" element={<Taxonomy />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/AI-Personalize/"  element={<Home />} />
+          <Route path="/AI-Personalize/content" element={<Content />} />
+          <Route path="/AI-Personalize/taxonomy" element={<Taxonomy />} />
+          <Route path="/AI-Personalize/team" element={<Team />} />
         </Routes>
       </div>
     </Router>

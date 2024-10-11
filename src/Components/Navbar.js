@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="custom-navbar">
       <div className="navbar-container">
-        <NavLink className="navbar-brand" to="/">
+        <NavLink className="navbar-brand" to="/AI-Personalize/">
           AI-Personalize
         </NavLink>
         <div className="navbar-toggler" onClick={toggleMobileMenu}>
@@ -21,22 +21,22 @@ function Navbar() {
         <div className={`navbar-collapse ${isMobileMenuOpen ? 'open' : ''}`}>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/" onClick={toggleMobileMenu}>
+              <NavLink className="nav-link" to="/AI-Personalize/" onClick={toggleMobileMenu}>
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/content" onClick={toggleMobileMenu}>
+              <NavLink className="nav-link" to="/AI-Personalize/content" onClick={toggleMobileMenu}>
                 Content
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/taxonomy" onClick={toggleMobileMenu}>
+              <NavLink className="nav-link" to="/AI-Personalize/taxonomy" onClick={toggleMobileMenu}>
                 Taxonomy
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/team" onClick={toggleMobileMenu}>
+              <NavLink className="nav-link" to="/AI-Personalize/team" onClick={toggleMobileMenu}>
                 Team
               </NavLink>
             </li>

@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <Routes>
+        <Routes >
           <Route path="/AI-Personalize/"  element={<Home />} />
           <Route path="/AI-Personalize/content" element={<Content />} />
           <Route path="/AI-Personalize/taxonomy" element={<Taxonomy />} />

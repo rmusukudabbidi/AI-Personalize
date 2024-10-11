@@ -1,35 +1,40 @@
 import React, { useState } from 'react';
 import './Team.css'; 
+import haritha from './images/haritha.jpg';
+import harsh from './images/Harsh.jpg';
+import rohit from './images/rohit.jpeg';
+import ajay from './images/ajay.jpg';
+
 const teamMembers = [
   {
     name: 'Ajay Kumar Medikonda',
-    role: 'Project Manager',
-    bio: 'Alice has over 10 years of experience in project management and leads our team with passion and precision.',
-    photo: 'https://via.placeholder.com/150', 
+    role: 'Content validator',
+    bio: 'AI-Driven Software Developer with a passion for creating intelligent solutions and seamless user experiences. Skilled in full-stack development,Coding, AI model implementation, and cloud technologies. Adept at designing and deploying innovative applications, including AI powered systems and data-driven web platforms. Experienced in collaborating on team-based projects or executing solo initiatives. A dedicated computer science graduate student, eager to apply cutting edge skills to solve real world challenges and drive impactful technological advancements.',
+    photo: ajay, 
   },
   {
     name: 'Haritha Dhanlalji Parmar',
-    role: 'Web Developer',
-    bio: 'Bob is a full-stack developer with a love for coding and problem-solving, contributing innovative solutions to our projects.',
-    photo: 'https://via.placeholder.com/150', 
+    role: 'Website Developer',
+    bio: 'With 2+ years of experience in cloud platforms like AWS, Azure, and GCP, I specialize in designing scalable cloud infrastructures and developing full-stack web applications using React.js, HTML, CSS, Java, and Python. I have led teams in delivering cloud-based solutions, building CI/CD pipelines, and executing migration projects. Currently, I am working on a project involving HTML, CSS, and React, showcasing my front-end expertise alongside cloud engineering. My work spans cloud engineering, AI/ML, and web development, with notable contributions to the Flagrant Fowl Futbol Association website and dynamic game development projects. As a developer and team lead, I combine technical expertise with leadership skills to drive innovation and ensure project success',
+    photo: haritha, 
   },
   {
     name: 'Harsh Patel',
-    role: 'UI/UX Designer',
-    bio: 'Charlie designs user-friendly interfaces and ensures our products provide a great user experience.',
-    photo: 'https://via.placeholder.com/150', 
+    role: 'Reporting and Delivery Lead',
+    bio: 'User-centric Web Developer prioritizing usability, adaptability, and cloud infrastructure. Skilled in designing visually appealing sites and apps with exceptional UX. Experienced in large-scale collaborations or solo projects. Proficient Network Engineer, troubleshooting routers, switches, firewalls, and cloud solutions. Motivated student ready to apply technical skills and tackle challenges efficiently',
+    photo: harsh, 
   },
   {
     name: 'Mary Sreeja Thirumala Reddy',
-    role: 'Data Scientist',
-    bio: 'Diana analyzes data trends to provide insights that drive our decision-making processes.',
+    role: 'Content Validator',
+    bio: '',
     photo: 'https://via.placeholder.com/150', 
   },
   {
     name: 'Rohit Reddy Musukudabbidi',
-    role: 'Web Developer',
-    bio: 'Edward ensures the quality of our products through rigorous testing and continuous improvement.',
-    photo: 'https://via.placeholder.com/150', 
+    role: 'Website Developer',
+    bio: 'Passionate web developer with a strong foundation in full-stack development, bringing innovative solutions to life using modern web technologies. Experienced in building responsive and dynamic web applications, with a keen interest in data science and cloud computing. Adept at collaborating with cross-functional teams and continuously learning to stay ahead in the fast-evolving tech landscape.',
+    photo: rohit, 
   },
 ];
 
@@ -38,6 +43,7 @@ const Team = () => {
 
   const handleMemberClick = (member) => {
     setSelectedMember(member);
+    console.log(member.photo);
   };
 
   const handleCloseModal = () => {

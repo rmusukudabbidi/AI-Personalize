@@ -4,6 +4,7 @@ import haritha from './images/haritha.jpg';
 import harsh from './images/Harsh.jpg';
 import rohit from './images/rohit.jpeg';
 import ajay from './images/ajay.jpg';
+import sreeja from './images/sreeja.jpg';
 
 const teamMembers = [
   {
@@ -26,9 +27,9 @@ const teamMembers = [
   },
   {
     name: 'Mary Sreeja Thirumala Reddy',
-    role: 'Content Validator',
-    bio: '',
-    photo: 'https://via.placeholder.com/150', 
+    role: 'Content Validator and Documentation',
+    bio: 'AWS and Web Development Enthusiast with experience in cloud services like S3, Athena, and Snowflake, alongside a solid foundation in front-end web technologies such as HTML, CSS, and JavaScript. My focus is on leveraging AWS to build scalable solutions while also developing responsive and interactive web applications. I am passionate about expanding my technical expertise and using both cloud and web technologies to address real-world challenges.',
+    photo: sreeja, 
   },
   {
     name: 'Rohit Reddy Musukudabbidi',

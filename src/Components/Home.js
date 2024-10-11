@@ -10,6 +10,16 @@ const Home = () => {
           <div className="sidebar-sticky">
             <h4 className="sidebar-title">Overview</h4>
             <ul className="nav flex-column">
+            <li className="nav-itemm">
+                <Link className="nav-linkk" to="Abstract" smooth={true} duration={0}>
+                  Abstract
+                </Link>
+              </li>
+              <li className="nav-itemm">
+                <Link className="nav-linkk" to="IndexTerms" smooth={true} duration={0}>
+                  Index Terms
+                </Link>
+              </li>
               <li className="nav-itemm">
                 <Link className="nav-linkk" to="keyChallenges" smooth={true} duration={0}>
                   Key Challenges
@@ -30,6 +40,25 @@ const Home = () => {
         </nav>
 
         <main className="col-md-9 ms-sm-auto col-lg-9 px-4">
+
+        <div className="content-section" id="Abstract">
+            <h2>Abstract</h2>
+            <p>
+            Artificial Intelligence (AI) technology is developing at a rapid pace, which has profound effects on modern userinterface (UI) design. In today’s digital environment, integrating AI functionalities is crucial. This study examines essential elements and best practices to create web application UIs that seamlessly integrate AI capabilities. It emphasizes the necessity for user-friendly and captivating interfaces while highlighting the significance of balancing AI’s potent capabilities with user comprehension and control. Additionally, the integration of AIpowered recommendation systems, personalized interfaces, and adaptable designs that change based on user behavior and preferences is examined. Recommendations are made to encourage usability testing and user research for empirical evaluation. The findings shed light on AI-enhanced user interface design, offering helpful suggestions for developers and designers to produce user centric, accessible, and ethically sound AI-driven web interfaces.
+            </p>
+          </div>
+
+          <div className="content-section" id="IndexTerms">
+            <h2>Index terms</h2>
+            <ul>
+             <li>Artificial Intelligence (AI)</li> 
+             <li>user interface (UI) design </li>
+             <li>AI-powered recommendation systems</li> 
+             <li>personalized interfaces </li>
+             <li>enhanced user interface design</li>
+            </ul>
+          </div>
+
           <div className="content-section" id="keyChallenges">
             <h2>Key Challenges</h2>
             <p>

@@ -1,0 +1,16 @@
+/* Custom styles for the taxonomy table */
+.table {
+    font-size: 14px; /* Reduce font size for mobile */
+  }
+  
+  .table th, .table td {
+    padding: 0.5rem; /* Add padding for a better touch experience */
+  }
+  
+  .table-responsive {
+    margin-bottom: 20px; /* Add some space below the table */
+  }
+  
+
+  
+  

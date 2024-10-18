@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import './Team.css'; 
+import './Team.css';
 import haritha from './images/haritha.jpg';
 import harsh from './images/Harsh.jpg';
 import rohit from './images/rohit.jpeg';
@@ -10,45 +11,80 @@ const teamMembers = [
   {
     name: 'Ajay Kumar Medikonda',
     role: 'Content validator',
-    bio: 'AI-Driven Software Developer with a passion for creating intelligent solutions and seamless user experiences. Skilled in full-stack development,Coding, AI model implementation, and cloud technologies. Adept at designing and deploying innovative applications, including AI powered systems and data-driven web platforms. Experienced in collaborating on team-based projects or executing solo initiatives. A dedicated computer science graduate student, eager to apply cutting edge skills to solve real world challenges and drive impactful technological advancements.',
-    photo: ajay, 
+    profile: `Ajay Kumar Medikonda is an AI-Driven Software Developer with a passion for creating intelligent solutions and seamless user experiences. He has extensive experience in validating content, assisting in testing and debugging, and ensuring high-quality deliverables. Ajay has worked on several projects involving cloud technologies, UI/UX design, and documentation. He thrives in collaborative settings, offering insightful feedback to enhance project outcomes. His dedication to both technical excellence and teamwork makes him a valuable member of any project.`,
+    photo: ajay,
+    work: [
+      'X.',
+      'Y.',
+      'Z.'
+    ]
   },
   {
     name: 'Haritha Dhanlalji Parmar',
     role: 'Website Developer',
-    bio: 'With 2+ years of experience in cloud platforms like AWS, Azure, and GCP, I specialize in designing scalable cloud infrastructures and developing full-stack web applications using React.js, HTML, CSS, Java, and Python. I have led teams in delivering cloud-based solutions, building CI/CD pipelines, and executing migration projects. Currently, I am working on a project involving HTML, CSS, and React, showcasing my front-end expertise alongside cloud engineering. My work spans cloud engineering, AI/ML, and web development, with notable contributions to the Flagrant Fowl Futbol Association website and dynamic game development projects. As a developer and team lead, I combine technical expertise with leadership skills to drive innovation and ensure project success',
-    photo: haritha, 
+    profile: `Haritha Dhanlalji Parmar is a highly skilled website developer with over 2+ years of experience in cloud platforms like AWS, Azure, and GCP. Specializing in designing scalable cloud infrastructures, Haritha has contributed to various projects involving web development, cloud architecture, and team leadership. She has a passion for creating user-friendly and dynamic websites, integrating front-end technologies like React.js with back-end APIs. Haritha's leadership and problem-solving abilities make her an invaluable part of any development team. She is dedicated to improving user experiences through technology.`,
+    photo: haritha,
+    work: [
+      'X.',
+      'Y.',
+      'Z.'
+    ]
   },
   {
     name: 'Harsh Patel',
     role: 'Reporting and Delivery Lead',
-    bio: 'User-centric Web Developer prioritizing usability, adaptability, and cloud infrastructure. Skilled in designing visually appealing sites and apps with exceptional UX. Experienced in large-scale collaborations or solo projects. Proficient Network Engineer, troubleshooting routers, switches, firewalls, and cloud solutions. Motivated student ready to apply technical skills and tackle challenges efficiently',
-    photo: harsh, 
+    profile: `Harsh Patel is a user-centric web developer with expertise in creating solutions that prioritize usability, adaptability, and cloud infrastructure. He has led several projects involving reporting and delivery, ensuring timely milestone completions while handling client feedback. Harsh has also managed the cloud infrastructure of web applications using tools like AWS and Azure. With a strong understanding of both front-end and back-end technologies, Harsh is adept at managing the development lifecycle from start to finish, ensuring optimal performance and a seamless user experience.`,
+    photo: harsh,
+    work: [
+      'X.',
+      'Y.',
+      'Z.'
+    ]
   },
   {
     name: 'Mary Sreeja Thirumala Reddy',
     role: 'Content Validator and Documentation',
-    bio: 'AWS and Web Development Enthusiast with experience in cloud services like S3, Athena, and Snowflake, alongside a solid foundation in front-end web technologies such as HTML, CSS, and JavaScript. My focus is on leveraging AWS to build scalable solutions while also developing responsive and interactive web applications. I am passionate about expanding my technical expertise and using both cloud and web technologies to address real-world challenges.',
-    photo: sreeja, 
+    profile: `Mary Sreeja Thirumala Reddy is an AWS and web development enthusiast with experience in cloud services such as S3, Athena, and Snowflake. She has contributed significantly to content validation and documentation for various projects, ensuring accuracy and quality. Sreeja is known for her meticulous attention to detail and ability to maintain clear, structured documentation. She has also worked on maintaining cloud infrastructure for project scalability and ensuring the project’s long-term stability. Sreeja’s combination of technical and soft skills allows her to excel in collaborative, high-pressure environments.`,
+    photo: sreeja,
+    work: [
+      'X.',
+      'Y.',
+      'Z.'
+    ]
   },
   {
     name: 'Rohit Reddy Musukudabbidi',
     role: 'Website Developer',
-    bio: 'Passionate web developer with a strong foundation in full-stack development, bringing innovative solutions to life using modern web technologies. Experienced in building responsive and dynamic web applications, with a keen interest in data science and cloud computing. Adept at collaborating with cross-functional teams and continuously learning to stay ahead in the fast-evolving tech landscape.',
-    photo: rohit, 
+    profile: `Rohit Reddy Musukudabbidi is a passionate web developer with a strong foundation in full-stack development. Rohit has worked extensively on creating dynamic and responsive front-end features for websites, collaborating with back-end developers to integrate dynamic content. His experience with React.js, JavaScript, and cloud technologies has helped him in delivering engaging, high-performance web applications. Rohit is driven by his passion for creating meaningful user experiences and thrives in both collaborative and independent work environments.`,
+    photo: rohit,
+    work: [
+      'X.',
+      'Y.',
+      'Z.'
+    ]
   },
 ];
 
 const Team = () => {
   const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedDetail, setSelectedDetail] = useState(null);
 
   const handleMemberClick = (member) => {
     setSelectedMember(member);
-    console.log(member.photo);
+    setSelectedDetail(null);  // Reset any previously selected details
+  };
+
+  const handleprofileClick = () => {
+    setSelectedDetail('profile');
+  };
+
+  const handleWorkClick = () => {
+    setSelectedDetail('work');
   };
 
   const handleCloseModal = () => {
     setSelectedMember(null);
+    setSelectedDetail(null);
   };
 
   return (
@@ -73,7 +109,33 @@ const Team = () => {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <h3>{selectedMember.name}</h3>
             <h5>{selectedMember.role}</h5>
-            <p>{selectedMember.bio}</p>
+            <div className="buttons-container">
+              <button className="btn btn-primary" onClick={handleprofileClick}>
+                Profile
+              </button>
+              <button className="btn btn-success" onClick={handleWorkClick}>
+                Work Contribution
+              </button>
+            </div>
+
+            {selectedDetail === 'profile' && (
+              <div className="details-section">
+                  <h5>About Me :) </h5>
+                <p>{selectedMember.profile}</p>
+              </div>
+            )}
+
+            {selectedDetail === 'work' && (
+              <div className="details-section">
+                <h5>Work Contribution:</h5>
+                <ul>
+                  {selectedMember.work.map((task, index) => (
+                    <li key={index}>{task}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             <button className="btn btn-secondary" onClick={handleCloseModal}>Close</button>
           </div>
         </div>

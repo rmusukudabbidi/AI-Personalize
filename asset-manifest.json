@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AI-Personalize/static/css/main.6d1f87d3.css",
-    "main.js": "/AI-Personalize/static/js/main.be823b32.js",
+    "main.js": "/AI-Personalize/static/js/main.253776cc.js",
     "static/js/453.bf235ba9.chunk.js": "/AI-Personalize/static/js/453.bf235ba9.chunk.js",
     "static/media/sreeja.jpg": "/AI-Personalize/static/media/sreeja.f975cbabcf567326f61f.jpg",
     "static/media/rohit.jpeg": "/AI-Personalize/static/media/rohit.34bfea5f1e92d9a1a952.jpeg",
@@ -10,11 +10,11 @@
     "static/media/Harsh.jpg": "/AI-Personalize/static/media/Harsh.163f2d46ee71e0276152.jpg",
     "index.html": "/AI-Personalize/index.html",
     "main.6d1f87d3.css.map": "/AI-Personalize/static/css/main.6d1f87d3.css.map",
-    "main.be823b32.js.map": "/AI-Personalize/static/js/main.be823b32.js.map",
+    "main.253776cc.js.map": "/AI-Personalize/static/js/main.253776cc.js.map",
     "453.bf235ba9.chunk.js.map": "/AI-Personalize/static/js/453.bf235ba9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d1f87d3.css",
-    "static/js/main.be823b32.js"
+    "static/js/main.253776cc.js"
   ]
 }

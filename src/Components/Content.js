@@ -8,21 +8,36 @@ const Content = () => {
       <div className="row">
         <nav className="col-md-3 d-none d-md-block bg-light sidebar">
           <div className="sidebar-sticky">
-            <h4 className="sidebar-title">Research Papers</h4>
+            <h4 className="sidebar-title">Research Groups</h4>
             <ul className="nav flex-column">
               <li className="nav-itemm">
-                <Link className="nav-linkk" to="ResearchPaper1" smooth={true} duration={0}>
-                    Research Paper 1
+                <Link className="nav-linkk" to="Group1" smooth={true} duration={0}>
+                    Group 1: AI-Driven Personalization and User Experience
                 </Link>
               </li>
               <li className="nav-itemm">
-                <Link className="nav-linkk" to="ResearchPaper2" smooth={true} duration={0}>
-                    Research Paper 2
+                <Link className="nav-linkk" to="Group2" smooth={true} duration={0}>
+                    Group 2: AI in Web Development and Automation
                 </Link>
               </li>
               <li className="nav-itemm">
-                <Link className="nav-linkk" to="ResearchPaper3" smooth={true} duration={0}>
-                    Research Paper 3
+                <Link className="nav-linkk" to="Group3" smooth={true} duration={0}>
+                    Group 3: AI-Driven User Profiling and Adaptive Systems
+                </Link>
+              </li>
+              <li className="nav-itemm">
+                <Link className="nav-linkk" to="Group4" smooth={true} duration={0}>
+                    Group 4: AI in Market Intelligence and Product Development
+                </Link>
+              </li>
+              <li className="nav-itemm">
+                <Link className="nav-linkk" to="Group5" smooth={true} duration={0}>
+                    Group 5: AI in User Interface (UI) Design and Adaptive Systems
+                </Link>
+              </li>
+              <li className="nav-itemm">
+                <Link className="nav-linkk" to="Group6" smooth={true} duration={0}>
+                    Group 6: Ethical Considerations and Challenges in AI-Driven Personalization
                 </Link>
               </li>
             </ul>
@@ -30,33 +45,64 @@ const Content = () => {
         </nav>
 
         <main className="col-md-9 ms-sm-auto col-lg-9 px-4">
-          <div className="content-section" id="ResearchPaper1">
-            <h2>Research Paper 1</h2>
+          <div className="content-section" id="Group1">
+            <h2>Group 1: AI-Driven Personalization and User Experience</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, fugiat ipsum cupiditate animi officiis reiciendis praesentium unde dolore tempore eos error rem, maiores provident exercitationem iste! Doloremque amet, perspiciatis reiciendis quis porro numquam recusandae corrupti veniam, vel, ipsum a tempora harum ipsa neque at sapiente architecto dolorem ducimus iure ea? Eaque voluptas voluptates voluptatum, delectus vel tempore cumque quidem voluptatem aliquid commodi quis iure rerum quo perspiciatis deleniti eum itaque similique sapiente qui accusantium excepturi incidunt consectetur? Odio, quibusdam fugit?
+                The group's publications all address the problem of AI-driven customization in various online content delivery, e-commerce, social media, and web application domains. All of these studies define the challenge as increasing user pleasure and engagement through tailored content that suits their interests. In addition to addressing possible concerns including privacy, cultural diversity, and data protection, each study tackles the difficulty of adapting AI algorithms to assure individualized experiences.
             </p>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis mollitia tempore deserunt ipsam a, ad veritatis accusamus, delectus illo dolorem adipisci quos! Molestias qui quis, cupiditate deleniti possimus voluptatum perferendis quam ea totam laudantium repudiandae inventore soluta expedita iste earum ducimus eaque eveniet tenetur! Velit illo officia veniam exercitationem repellendus libero quod ullam ipsam harum eos asperiores tempora unde, nulla laborum similique ipsa rerum quis aut eligendi voluptatibus.
-            </p>
-          </div>
-
-          <div className="content-section" id="ResearchPaper2">
-            <h2>Research Paper 2</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a necessitatibus numquam, temporibus debitis in! Eius soluta id minima voluptatibus velit ipsam voluptate corrupti error at, quia rem quis vel delectus impedit deserunt. Explicabo suscipit, molestias ab nulla sunt eum ad aliquid corporis! Ullam fugit quod veniam aperiam modi eaque totam exercitationem, est mollitia temporibus perspiciatis veritatis adipisci dolor consequuntur repudiandae, laudantium accusantium consequatur obcaecati provident natus sapiente eveniet? Ipsa quia esse quos est et, inventore omnis culpa libero ab, obcaecati reprehenderit doloremque fugiat itaque! Hic, voluptate. Neque praesentium officiis nulla magni pariatur amet in dolores laudantium aut facere animi repellendus odit eaque aliquid error id autem, alias nemo incidunt saepe necessitatibus voluptates! Aliquid, ad excepturi quaerat quod nulla necessitatibus enim sint officia maxime fugiat commodi deserunt at voluptas aliquam earum veritatis laboriosam pariatur autem asperiores! Voluptate minus placeat ea voluptatibus ducimus illo qui quo quidem sunt, consectetur est possimus suscipit deserunt porro fugit cum et eveniet! Hic laboriosam nesciunt nam excepturi modi architecto illo repudiandae, aliquam sint debitis. Ut beatae odio accusantium tenetur nemo labore ab quasi praesentium? Rem praesentium voluptatem ut doloremque saepe, aliquid obcaecati ex nihil in vel distinctio libero vitae dolor, animi laudantium molestias officia unde dolorem. Voluptates amet ab sed aliquid non nisi et, sint maiores animi, modi quos blanditiis distinctio debitis nihil at. Error nihil molestiae ipsum reiciendis commodi quasi optio? Hic aliquam reiciendis officia voluptatum sapiente odit commodi harum? Labore excepturi nesciunt nulla.
-            </p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni incidunt pariatur harum ratione animi sequi obcaecati deleniti architecto neque labore laudantium itaque quasi ullam molestias dolor fugit, blanditiis ea sed illum asperiores quae ad! Aperiam, distinctio odit. Eius soluta repellendus asperiores alias, culpa minima dolor laudantium eum sequi amet nisi aliquam accusamus doloremque voluptas temporibus quisquam autem quo, delectus sint laborum hic! Commodi alias beatae eveniet quas deserunt vero quae facilis explicabo maxime eaque nesciunt consectetur a, laboriosam, expedita enim quam quod voluptate optio. Odio ab, debitis atque facere doloremque maiores tenetur repudiandae animi, tempore quo nihil voluptatem iusto hic. Earum ipsum eum magnam. Nulla corporis est perferendis dolor vero a consequatur odit iure mollitia. Vitae, nulla! Vitae, quidem libero.
+                Changes: The domains (e.g., TikTok, e-commerce, online apps) and the specific approaches for validating AI models change, even though the problem definition and overall AI customization theme stay the same.
             </p>
           </div>
 
-          <div className="content-section" id="ResearchPaper3">
-            <h2>Research Paper 3</h2>
+          <div className="content-section" id="Group2">
+            <h2>Group 2: AI in Web Development and Automation</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis doloribus pariatur tempore nobis aspernatur amet voluptatibus nostrum est itaque nesciunt ut ducimus deleniti nisi ullam obcaecati suscipit numquam, consequatur iste eos officiis quisquam! Iure, tempora doloribus ipsam magni provident, error odit quidem quae molestiae id fuga. Explicabo voluptatibus voluptatum eligendi temporibus iste asperiores fugit dolorem natus minus sed minima at expedita molestias repellendus aut quidem voluptate beatae quasi deleniti itaque fugiat, nihil reprehenderit! Deserunt libero aperiam perspiciatis dolore iusto magni assumenda culpa a sequi est distinctio quasi ducimus possimus sit dicta, dolorem at reiciendis porro sed sint laborum reprehenderit labore incidunt? Numquam ex placeat, et repellat quam laborum minus ea facere totam consequuntur debitis consequatur beatae. Hic, accusantium. Placeat maiores totam perferendis voluptates, velit libero earum natus error nihil itaque sequi eligendi. Impedit quae ipsum a officiis quia ullam vitae tenetur laboriosam, at cupiditate, non architecto, ipsa deleniti obcaecati!
+                This group's papers center on the issue of using AI to improve web development processes, with a particular focus on user engagement, automation, and customization. The description of the topic focuses on increasing web development efficiency through the automation of tedious processes, performance optimization, and integration of user-experience-enhancing customization components.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis temporibus ullam eos rerum consectetur error ex perspiciatis quod voluptatum, iure alias. Ab quasi optio voluptates dolorem tempora reiciendis distinctio saepe. Possimus, sequi! At dolore harum voluptate deleniti, enim, ipsum aspernatur aliquid aperiam, consequatur numquam dignissimos vero ratione. Nesciunt voluptatem quo enim sunt assumenda, ea atque numquam asperiores, sint, iusto provident.
+                Changes: Although AI for automation in web development is the main topic of discussion, some papers—such as Paper 23—focus more on the theoretical elements of customization, while others are more practical and highlight no-code platforms and real-world applications.
+            </p>
+          </div>
+
+          <div className="content-section" id="Group3">
+            <h2>Group 3: AI-Driven User Profiling and Adaptive Systems</h2>
+            <p>
+                This group discusses the application of AI to the development of customized user journeys and adaptable web interfaces. Customizing online applications to each user's profile based on behavioral data, interaction history, and preferences is the main focus of the problem definition. The studies suggest using AI algorithms to dynamically modify web applications' features, layout, and content, such as clustering and recommendation systems. Paper 8 delves into the evolution of adaptable interfaces through real-time user activities, whereas Paper 24 investigates the role of artificial intelligence in forecasting future user demands for adaptive content. Prototyping, real-world input, and user testing are some of the methodologies used to gauge how well AI creates adaptable interfaces.
+            </p>
+          </div>
+
+          <div className="content-section" id="Group4">
+            <h2>Group 4: AI in Market Intelligence and Product Development</h2>
+            <p>
+                This category of articles focuses on using AI to improve business context decision-making, particularly in the domains of product creation, market intelligence, and consumer insights. The challenge is defined consistently throughout the papers, with organizations needing to increase product innovation and extract meaningful insights by quickly analyzing massive datasets.
+            </p>
+            <p>
+                Changes: All the papers center around the use of AI in business, but they cover different topics. For example, some papers concentrate on product development, while others prioritize customer insights.
+            </p>
+          </div>
+
+          <div className="content-section" id="Group5">
+            <h2>Group 5: AI in User Interface (UI) Design and Adaptive Systems</h2>
+            <p>
+                This group's papers tackle the challenge of creating user interfaces that adjust to a range of user requirements, particularly when it comes to usability and accessibility. In order to improve the user experience using AI-driven design, the issue definition centers on making sure that user interfaces are flexible and intuitive enough to accommodate a wide variety of users with different skills.
+            </p>
+            <p>
+                Differences: Although the aims of usability and UI adaptation are identical in both studies, some concentrate more on accessibility, while others examine adaptable UI design empirically.
+            </p>
+          </div>
+
+          <div className="content-section" id="Group6">
+            <h2>Group 6: Ethical Considerations and Challenges in AI-Driven Personalization</h2>
+            <p>
+                The ethical ramifications of utilizing AI to personalize online apps are the main emphasis of this group. Important topics including algorithmic bias, consent, transparency, and data protection are covered in the publications. Paper 7 delves into the privacy hazards that arise from gathering and utilizing user data for customization, whereas Paper 10 tackles issues related to equity in AI-powered recommendation systems. Creating more transparent AI systems and putting privacy-preserving measures like differential privacy into practice are two possible solutions. Methodologies include empirical assessments of privacy-preserving AI models as well as theoretical talks on ethics.
+            </p>
+          </div>
+
+          <div className="content-section">
+            <h2>Overall Differences Between Groups</h2>
+            <p>
+                Group 1 and Group 3 differ primarily in that Group 3 delves deeper into adaptive systems that change content or user interface (UI) in response to real-time user behavior. Group 2 deals with automating development chores for enhanced online customization, while Group 4 concentrates on user data analysis for enhanced market forecasting and business decision-making. Group 5 focuses on UI design customization, whereas Group 3 examines adaptable systems that dynamically change not just the interface but also the features and information. Compared to Group 1/3, Group 6 is more concerned with moral issues surrounding customization, such as prejudice and privacy, whereas Group 1 and Group 3 usually focus more on functional and technical aspects.
             </p>
           </div>
         </main>

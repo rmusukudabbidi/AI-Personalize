@@ -23,7 +23,7 @@ const TaxonomyTable = () => {
           <tbody>
             <tr>
               <td>Group 1: AI-Driven Personalization and User Experience</td>
-              <td>Paper 1</td>
+              <td>Paper 1,3,16,17</td>
               <td>Personalized content delivery</td>
               <td>Web content delivery, e-commerce, social media</td>
               <td>AI-driven algorithms to tailor content based on user preferences</td>
@@ -34,7 +34,7 @@ const TaxonomyTable = () => {
             </tr>
             <tr>
               <td>Group 2: AI in Web Development and Automation</td>
-              <td>Paper 23</td>
+              <td>Paper 13,18,22,23</td>
               <td>Enhancing web dev processes with AI</td>
               <td>Web development, automation</td>
               <td>Automating repetitive tasks, optimizing site performance</td>
@@ -45,7 +45,7 @@ const TaxonomyTable = () => {
             </tr>
             <tr>
               <td>Group 3: AI-Driven User Profiling and Adaptive Systems</td>
-              <td>Paper 8, Paper 24</td>
+              <td>Paper 8,9,24</td>
               <td>Adapting web apps based on user profiles</td>
               <td>Web applications, adaptive systems</td>
               <td>AI algorithms (clustering, recommendation systems) to dynamically adjust features</td>
@@ -56,7 +56,7 @@ const TaxonomyTable = () => {
             </tr>
             <tr>
               <td>Group 4: AI in Market Intelligence and Product Development</td>
-              <td>Paper 14</td>
+              <td>Paper 11,12,21</td>
               <td>Market intelligence, product innovation</td>
               <td>Business intelligence, customer insights</td>
               <td>AI for analyzing large datasets and predicting trends</td>
@@ -67,7 +67,7 @@ const TaxonomyTable = () => {
             </tr>
             <tr>
               <td>Group 5: AI in User Interface (UI) Design and Adaptive Systems</td>
-              <td>Paper 18</td>
+              <td>Paper 19,25</td>
               <td>Adapting UI for diverse needs</td>
               <td>Web UI, accessibility</td>
               <td>AI-driven design for adaptive and intuitive UIs</td>
@@ -78,7 +78,7 @@ const TaxonomyTable = () => {
             </tr>
             <tr>
               <td>Group 6: Ethical Considerations and Challenges in AI-Driven Personalization</td>
-              <td>Paper 7, Paper 10</td>
+              <td>Paper 7,10</td>
               <td>Ethical challenges in AI personalization</td>
               <td>Data privacy, algorithmic fairness</td>
               <td>Transparency in AI, privacy-preserving techniques like differential privacy</td>

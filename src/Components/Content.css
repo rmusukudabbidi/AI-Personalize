@@ -1,94 +1,164 @@
+/* Base styling for the layout */
 .home {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .sidebar {
-    background-color: #f8f9fa;
-    padding: 15px;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-  }
-  
-  .sidebar-title {
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .nav-linkk {
-    color: #007bff;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .nav-linkk:hover {
-    text-decoration: underline;
-  }
-  
-  .content-section {
-    padding: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .content-section h2 {
-    color: #343a40;
-  }
-  
-  .content-section p {
-    font-size: 1.1rem;
-    color: #6c757d;
-  }
-  
-  .nav-itemm {
-    position: relative;
-    display: block;
-    padding: 0.5rem 1rem;
-  }
-  
-  .nav-linkk:hover, .nav-linkk:focus {
-    color: #0056b3;  
-    text-decoration: underline;
-  }
-  
-  .nav-linkk.disabled {
-    color: #6c757d;  
-    pointer-events: none;
-    cursor: default;
-  }
-  
-  
+  display: flex;
+  flex-direction: row;
+  background-color: #f4f4f4; /* Soft background to make the content stand out */
+}
 
-    /* Media query for mobile views */
+/* Sidebar styling */
+.sidebar {
+  background-color: #fff; /* Classic white for sidebar */
+  padding: 20px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  border-right: 1px solid #e0e0e0; /* Soft border for separation */
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.sidebar-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 1.2rem; /* Slightly larger font for the title */
+  color: #343a40; /* Darker color for a classic touch */
+}
+
+/* Navigation link styling */
+.nav-linkk {
+  color: #0056b3; /* Deep blue for a classic and readable link color */
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500; /* Semi-bold for better readability */
+  padding: 10px 0; /* Added padding for more breathing room */
+  display: block;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.nav-linkk:hover {
+  text-decoration: underline;
+  color: #004085; /* Darker shade on hover */
+  background-color: #f1f1f1; /* Light grey background on hover */
+  padding-left: 5px; /* Slight left padding for a smooth "slide" effect */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow on hover */
+  border-left: 3px solid #007bff; /* Left border for an accent effect */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all hover styles */
+}
+
+/* Disabled link styling */
+.nav-linkk.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-itemm {
+  margin-bottom: 10px; /* Space between items */
+}
+
+
+/* Content Section */
+.content-section {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9; /* Light background to contrast the text */
+  border-radius: 8px; /* Rounded corners for a polished look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Headings in the content section */
+.content-section h2 {
+  color: #343a40; /* Classic dark gray for headings */
+  font-size: 1.75rem; /* Slightly larger font for emphasis */
+  margin-bottom: 15px; /* Spacing between headings and paragraphs */
+  border-bottom: 2px solid #007bff; /* Bottom border to accent headings */
+  padding-bottom: 5px;
+  text-transform: uppercase; /* Uppercase for a more prominent heading */
+}
+
+/* Paragraphs in the content section */
+.content-section p {
+  font-size: 1.1rem;
+  color: #555555; /* Subtle mid-gray for body text */
+  line-height: 1.6; /* Increased line height for better readability */
+  margin-bottom: 15px; /* Spacing between paragraphs */
+}
+
+/* Emphasized text (optional) */
+.content-section p em {
+  color: #007bff; /* Blue accent for emphasized text */
+  font-style: italic;
+}
+
+/* Blockquote styling for quotes or emphasized sections */
+.content-section blockquote {
+  border-left: 5px solid #007bff; /* Blue border for quotes */
+  padding-left: 15px;
+  color: #333333; /* Darker gray for quotes */
+  font-style: italic;
+  background-color: #f1f1f1; /* Light background for contrast */
+  margin: 20px 0;
+}
+
+/* Unordered and ordered lists */
+.content-section ul, .content-section ol {
+  margin-left: 20px;
+  color: #444444; /* Darker gray for list items */
+}
+
+.content-section ul li, .content-section ol li {
+  margin-bottom: 10px; /* Spacing between list items */
+  font-size: 1.1rem; /* Consistent size with paragraphs */
+}
+
+/* Links within the text */
+.content-section a {
+  color: #0056b3; /* Classic blue for text links */
+  text-decoration: underline; /* Underline to distinguish links */
+}
+
+.content-section a:hover {
+  color: #004085; /* Darker shade on hover */
+  background-color: #e9ecef; /* Subtle background color on hover */
+  transition: all 0.3s ease;
+}
+
+
+
+/* Media queries for responsive design */
 @media (max-width: 768px) {
-    .home {
+  .home {
       flex-direction: column;
-    }
-  
-    .sidebar {
-      display: none; 
-    }
-  
-    .content-section {
-      padding: 15px;
-    }
   }
-  
-  @media (max-width: 768px) {
-    .toggle-sidebar-btn {
-      display: block; 
+
+  .sidebar {
+      display: none;
+  }
+
+  .content-section {
+      padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toggle-sidebar-btn {
+      display: block;
       padding: 10px;
       background-color: #007bff;
       color: white;
       border: none;
       margin: 10px;
+      font-size: 1rem; /* Slightly larger button text */
       cursor: pointer;
-    }
-  
-    .sidebar.active {
-      display: block; 
-      width: 100%;
-      height: auto; 
-      position: static;
-    }
+      border-radius: 5px; /* Rounded corners for button */
   }
+
+  .sidebar.active {
+      display: block;
+      width: 100%;
+      height: auto;
+      position: static;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for mobile view */
+  }
+}

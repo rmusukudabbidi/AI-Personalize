@@ -11,40 +11,40 @@ const teamMembers = [
   {
     name: 'Ajay Kumar Medikonda',
     role: 'Content validator',
-    profile: `Ajay Kumar Medikonda is an AI-Driven Software Developer with a passion for creating intelligent solutions and seamless user experiences. He has extensive experience in validating content, assisting in testing and debugging, and ensuring high-quality deliverables. Ajay has worked on several projects involving cloud technologies, UI/UX design, and documentation. He thrives in collaborative settings, offering insightful feedback to enhance project outcomes. His dedication to both technical excellence and teamwork makes him a valuable member of any project.`,
+    profile: `I, Ajay Kumar Medikonda, am an AI-Driven Software Developer with a deep passion for creating intelligent solutions that offer seamless user experiences. With extensive experience in validating content, assisting in testing and debugging, and ensuring high-quality deliverables, I have honed my skills across several projects involving cloud technologies, UI/UX design, and documentation. I excel in collaborative settings where I can provide insightful feedback to enhance project outcomes, and my commitment to technical excellence and teamwork makes me a valuable contributor to any project.`,
     photo: ajay,
     work: [
-      'X.',
-      'Y.',
-      'Z.'
+      "1. Research and Analysis: Conducted a comprehensive review of relevant literature on AI driven personalization, identifying key trends and methodologies. I categorized each paper systematically to enhance the project's research foundation and methodologies.",
+      "Y. Content Validation: Ensured the accuracy and relevance of the survey paper's content through rigorous validation. This involved cross referencing findings with credible sources, ensuring that every claim was substantiated and enhancing the overall credibility of the research.",
+      'Z.Website Verification: Actively participated in the verification process of the website, focusing on aligning the deployed content with the validated survey paper. This included checking for consistency, functionality, and user experience, ensuring a seamless interaction for users.'
     ]
   },
   {
     name: 'Haritha Dhanlalji Parmar',
     role: 'Website Developer',
-    profile: `Haritha Dhanlalji Parmar is a highly skilled website developer with over 2+ years of experience in cloud platforms like AWS, Azure, and GCP. Specializing in designing scalable cloud infrastructures, Haritha has contributed to various projects involving web development, cloud architecture, and team leadership. She has a passion for creating user-friendly and dynamic websites, integrating front-end technologies like React.js with back-end APIs. Haritha's leadership and problem-solving abilities make her an invaluable part of any development team. She is dedicated to improving user experiences through technology.`,
+    profile: `I am Haritha Dhanlalji Parmar, a highly skilled website developer with over 2 years of experience across cloud platforms like AWS, Azure, and GCP. I specialize in designing scalable cloud infrastructures and have contributed to various projects in web development and cloud architecture. My passion lies in creating user-friendly and dynamic websites, integrating front-end technologies like React.js with back-end APIs. My leadership and problem-solving abilities underscore my value to any development team, and I am dedicated to leveraging technology to improve user experiences.`,
     photo: haritha,
     work: [
-      'X.',
-      'Y.',
-      'Z.'
+      '1. Development & Integration: Spearheaded the creation, integration, and layout of the taxonomy structure and home page, along with the styling for all web pages, to ensure a consistent user experience.',
+      '2. AI Personalization Research: Investigated and analyzed AI-driven design methodologies, emphasizing personalization and its influence on web applications, providing valuable insights for the projects technical framework.',
+      '3. Visuals, Documentation & Effects: Crafted and assembled images, graphs, and resource materials for the website, incorporating special visual effects to enrich the content on each page, as well as contributing to the projects documentation.'
     ]
   },
   {
     name: 'Harsh Patel',
     role: 'Reporting and Delivery Lead',
-    profile: `Harsh Patel is a user-centric web developer with expertise in creating solutions that prioritize usability, adaptability, and cloud infrastructure. He has led several projects involving reporting and delivery, ensuring timely milestone completions while handling client feedback. Harsh has also managed the cloud infrastructure of web applications using tools like AWS and Azure. With a strong understanding of both front-end and back-end technologies, Harsh is adept at managing the development lifecycle from start to finish, ensuring optimal performance and a seamless user experience.`,
+    profile: `I am Harsh Patel, a usability-focused, flexible, full-stack web developer, and cloud infrastructure architect. I have led various projects relating to reporting and delivery and always reached milestones effectively by resolving client concerns. Besides technical expertise, I provide management leadership within my team. I have experience managing cloud infrastructure and operating networks. I have also led/participated in numerous projects related to computer networks, machine learning, and deep learning. Equipped with extensive knowledge in frontend and backend technologies, I ensure full lifecycle development with best performance and seamless user experience.`,
     photo: harsh,
     work: [
-      'X.',
-      'Y.',
-      'Z.'
+      '1. UI/UX Design: Led the design of user interfaces, ensuring a seamless and engaging experience while prioritizing usability and aesthetics.',
+      '2. Reporting and Content Research: *Developed reporting mechanisms to track user engagement and performance metrics, while also conducting in-depth research on relevant content and literature to inform the design and functionality of the application.',
+      '3. Diversity Lead: Acted as the diversity lead, promoting inclusive design practices and ensuring the application meets the needs of a diverse user base.'
     ]
   },
   {
     name: 'Mary Sreeja Thirumala Reddy',
     role: 'Content Validator and Documentation',
-    profile: `Mary Sreeja Thirumala Reddy is an AWS and web development enthusiast with experience in cloud services such as S3, Athena, and Snowflake. She has contributed significantly to content validation and documentation for various projects, ensuring accuracy and quality. Sreeja is known for her meticulous attention to detail and ability to maintain clear, structured documentation. She has also worked on maintaining cloud infrastructure for project scalability and ensuring the project’s long-term stability. Sreeja’s combination of technical and soft skills allows her to excel in collaborative, high-pressure environments.`,
+    profile: `I, Mary Sreeja Thirumala Reddy, am deeply engaged in AWS and web development, with proficient experience in cloud services such as S3, Athena, and Snowflake. My significant contributions to content validation and documentation have ensured the accuracy and quality of various projects. Known for my meticulous attention to detail and ability to maintain clear, structured documentation, I also focus on maintaining cloud infrastructure for project scalability and long-term stability. My combination of technical and soft skills enables me to excel in collaborative, high-pressure environments.`,
     photo: sreeja,
     work: [
       'X.',
@@ -55,12 +55,12 @@ const teamMembers = [
   {
     name: 'Rohit Reddy Musukudabbidi',
     role: 'Website Developer',
-    profile: `Rohit Reddy Musukudabbidi is a passionate web developer with a strong foundation in full-stack development. Rohit has worked extensively on creating dynamic and responsive front-end features for websites, collaborating with back-end developers to integrate dynamic content. His experience with React.js, JavaScript, and cloud technologies has helped him in delivering engaging, high-performance web applications. Rohit is driven by his passion for creating meaningful user experiences and thrives in both collaborative and independent work environments.`,
+    profile: `I am Rohit Reddy Musukudabbidi, a passionate web developer with a strong foundation in full-stack development. I have extensive experience in creating dynamic and responsive front-end features for websites, working closely with back-end developers to integrate dynamic content. My skills in React.js, JavaScript, and cloud technologies aid me in delivering engaging, high-performance web applications. Driven by a passion for creating meaningful user experiences, I thrive in both collaborative and independent work settings.`,
     photo: rohit,
     work: [
-      'X.',
-      'Y.',
-      'Z.'
+      '1. Developed and Integrated React Components: Designed the website structure and created a single-page React application, focusing on the Content and Team Pages.',
+      '2. Researched AI Personalization: Explored topics like user profiling, adaptive interfaces, and ethical considerations in AI-driven personalization, sourcing relevant research papers.',
+      '3. Deployed the Application: Led the deployment process by building and pushing the application to GitHub Pages for live access.'
     ]
   },
 ];
@@ -71,7 +71,7 @@ const Team = () => {
 
   const handleMemberClick = (member) => {
     setSelectedMember(member);
-    setSelectedDetail(null);  // Reset any previously selected details
+    setSelectedDetail(null);  
   };
 
   const handleprofileClick = () => {

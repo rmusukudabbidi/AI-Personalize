@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'; 
+import logo from './images/logo.png';
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ function Navbar() {
     <nav className="custom-navbar">
       <div className="navbar-container">
         <NavLink className="navbar-brand" to="/">
-          AI-Personalize
+          <img src={logo} alt="Logo" className='logo'/> 
         </NavLink>
         <div className="navbar-toggler" onClick={toggleMobileMenu}> 
           <span className="navbar-toggler-icon">☰</span>

@@ -47,9 +47,9 @@ const teamMembers = [
     profile: `I, Mary Sreeja Thirumala Reddy, am deeply engaged in AWS and web development, with proficient experience in cloud services such as S3, Athena, and Snowflake. My significant contributions to content validation and documentation have ensured the accuracy and quality of various projects. Known for my meticulous attention to detail and ability to maintain clear, structured documentation, I also focus on maintaining cloud infrastructure for project scalability and long-term stability. My combination of technical and soft skills enables me to excel in collaborative, high-pressure environments.`,
     photo: sreeja,
     work: [
-      'X.',
-      'Y.',
-      'Z.'
+      '1. Ethical AI Research: Conducted in-depth research on the ethical implications of AI-powered personalization in digital marketing, focusing on how these technologies impact user privacy and data handling.',
+      '2. AI Applications in Networks and Education: Reviewed AI and machine learning applications in mobile networks and personalized education systems. Key papers include "A Survey of AI and Machine Learning Applications in Mobile Networks" and "Personalized Education and AI in the USA, China, and India."',
+      '3. Latex Paper Preparation: Led the preparation of the survey paper in Latex format, ensuring accurate structuring, citations, and formatting. Worked closely with the team to maintain document consistency and professionalism for final submission.'
     ]
   },
   {

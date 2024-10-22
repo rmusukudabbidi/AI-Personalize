@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Content from './Components/Content';
 import Taxonomy from './Components/Taxonomy';
 import Team from './Components/Team';
+import References from './Components/References';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/content" element={<Content />} />
           <Route path="/taxonomy" element={<Taxonomy />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/references" element={<References />} />
         </Routes>
       </div>
     </Router>

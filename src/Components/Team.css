@@ -1,4 +1,4 @@
-/* General container styling */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,7 +8,7 @@
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Card styling */
+
 .card {
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
@@ -23,7 +23,7 @@
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Card image styling */
+
 .card-img-top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -36,7 +36,7 @@
   opacity: 0.85;
 }
 
-/* Card body styling */
+
 .card-body {
   padding: 20px;
   text-align: center;
@@ -57,7 +57,7 @@
   margin-bottom: 20px;
 }
 
-/* Modal overlay styling */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -71,7 +71,7 @@
   z-index: 1000;
 }
 
-/* Modal content styling */
+
 .modal-content {
   background-color: #fff;
   padding: 30px;
@@ -117,7 +117,7 @@
   background-color: #c0392b;
 }
 
-/* Details section styling */
+
 .details-section {
   margin-top: 20px;
   font-size: 1rem;
@@ -137,7 +137,7 @@ ul li {
   color: #2c3e50;
 }
 
-/* Button container styling */
+
 .buttons-container {
   text-align: center;
   margin: 20px 0;
@@ -159,7 +159,7 @@ ul li {
   background-color: #2c40f1;
 }
 
-/* Overall page styling */
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;

@@ -82,11 +82,11 @@
 
 .logo{
   height: 60px;
-  width: 100px;
+  width: 200px;
 }
 
-/* Media query for mobile devices */
-@media (max-width: 768px) {
+/* Media query for mobile view */
+@media (max-width: 767px) {
   .navbar-collapse {
       display: none;
       flex-direction: column;
@@ -120,11 +120,12 @@
 
   .logo{
     height: 60px;
-    width: 80px;
+    width: 160px;
   }
 }
 
-/* Styles for desktop view */
+
+/* desktop view */
 @media (min-width: 768px) {
   .navbar-collapse {
       display: flex !important;

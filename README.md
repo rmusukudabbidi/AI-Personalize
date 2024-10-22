@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# AI-Personalize
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to create an AI-driven personalized web application that enhances user engagement by integrating advanced recommendation systems, adaptive interfaces, and ethical AI implementations. The application is designed using React.js for the front-end, with content validation, UI/UX design, and research playing key roles in its development.
+
+## Team Members
+
+- **Ajay Kumar Medikonda**: Content Validator, Researcher
+- **Haritha Dhanlalji Parmar**: Website Developer, AI Personalization Research
+- **Harsh Patel**: Reporting and Delivery Lead, UI/UX Design
+- **Mary Sreeja Thirumala Reddy**: Content Validator, Documentation Specialist
+- **Rohit Reddy Musukudabbidi**: Website Developer, AI Researcher
+
+## Project Overview
+
+This project explores how AI-driven personalization can create a more dynamic, user-friendly experience. The web application utilizes cloud platforms and scalable infrastructure to deliver personalized content and insights to users based on their preferences and behaviors. Additionally, it addresses ethical concerns related to AI, such as user privacy and algorithmic fairness.
 
 ## Available Scripts
 
@@ -8,63 +20,36 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You will also see any lint errors in the console.
 
-### `npm test`
+## Contributions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Ajay Kumar Medikonda**: Led the content validation and research for AI-driven personalization and adaptive systems.
+- **Haritha Dhanlalji Parmar**: Developed and integrated the website structure and components, focusing on user experience and AI personalization.
+- **Harsh Patel**: Managed UI/UX design and reporting, ensuring seamless user interaction and comprehensive project documentation.
+- **Mary Sreeja Thirumala Reddy**: Conducted research on AI applications, focusing on mobile networks and personalized education, and prepared the paper in Latex.
+- **Rohit Reddy Musukudabbidi**: Developed React components, researched AI personalization, and deployed the application to GitHub Pages.
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This app is deployed using GitHub Pages.  
+Checkout the link: (https://rmusukudabbidi.github.io/AI-Personalize/#/) to view our website.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React.js**: Core framework used for the front-end development.
+- **Latex**: Used for paper preparation and structuring.
 
-### `npm run eject`
+## Research and Contributions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project incorporates research on:
+- AI personalization techniques and methodologies.
+- Adaptive interfaces based on user profiling.
+- Ethical considerations in AI-driven personalization.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Acknowledgments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LLM Models**: We utilized large language models (LLMs) to assist with summarizing papers, generating graphs, and supporting the design and structure of the web application.

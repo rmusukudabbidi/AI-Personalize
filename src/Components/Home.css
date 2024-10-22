@@ -58,7 +58,6 @@
   cursor: default;
 }
 
-/* New styles for images */
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -67,13 +66,13 @@
 .img-left {
   float: left;
   margin-right: 15px;
-  width: 350px; /* Increase width for better visibility */
+  width: 350px; 
 }
 
 .img-right {
   float: right;
   margin-left: 15px;
-  width: 500px; /* Increase width for better visibility */
+  width: 500px; 
 }
 
 /* Media query for mobile views */
@@ -82,12 +81,11 @@
   .img-right {
     float: none;
     display: block;
-    margin: 0 auto 15px; /* Center images for mobile */
-    width: 100%; /* Full width for smaller screens */
+    margin: 0 auto 15px; 
+    width: 100%; 
   }
 }
 
-/* Media query for mobile views */
 @media (max-width: 768px) {
   .home {
     flex-direction: column;

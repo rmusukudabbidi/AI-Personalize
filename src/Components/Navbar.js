@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'; 
-import logo from './images/logo.png';
+import logo2 from './images/logo2.png';
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="custom-navbar">
       <div className="navbar-container">
         <NavLink className="navbar-brand" to="/">
-          <img src={logo} alt="Logo" className='logo'/> 
+          <img src={logo2} alt="Logo" className='logo'/> 
         </NavLink>
         <div className="navbar-toggler" onClick={toggleMobileMenu}> 
           <span className="navbar-toggler-icon">☰</span>
@@ -39,6 +39,11 @@ function Navbar() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/team" onClick={toggleMobileMenu}>
                 Team
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/references" onClick={toggleMobileMenu}>
+                References
               </NavLink>
             </li>
           </ul>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
 import './Content.css';
+import graph11 from './images/graph11.jpg';
+import graph12 from './images/graph12.jpg';
 
 const Content = () => {
   return (
@@ -50,9 +52,18 @@ const Content = () => {
             <p>
                 The Category's publications all address the problem of AI-driven customization in various online content delivery, e-commerce, social media, and web application domains. All of these studies define the challenge as increasing user pleasure and engagement through tailored content that suits their interests. In addition to addressing possible concerns including privacy, cultural diversity, and data protection, each study tackles the difficulty of adapting AI algorithms to assure individualized experiences.
             </p>
+            
+            <div className="cat1">
+              <div>
             <p>
-                Changes: The domains (e.g., TikTok, e-commerce, online apps) and the specific approaches for validating AI models change, even though the problem definition and overall AI customization theme stay the same.
+                Differences: The domains (e.g., TikTok, e-commerce, online apps) and the specific approaches for validating AI models change, even though the problem definition and overall AI customization theme stay the same. 
             </p>
+            <p>
+              As illustrated in the pie chart, the distribution of AI technologies in various systems emphasizes the significant role of recommendation systems and personalized content, highlighting the practical applications discussed in our studies across diverse domains like TikTok, e-commerce, and online apps.
+            </p>
+            </div>
+            <img className="cat1img" src={graph11} alt='graph about AI technology Distributions in system.'></img>
+            </div>
           </div>
 
           <div className="content-section" id="Category2">
@@ -61,7 +72,7 @@ const Content = () => {
                 This Category's papers center on the issue of using AI to improve web development processes, with a particular focus on user engagement, automation, and customization. The description of the topic focuses on increasing web development efficiency through the automation of tedious processes, performance optimization, and integration of user-experience-enhancing customization components.
             </p>
             <p>
-                Changes: Although AI for automation in web development is the main topic of discussion, some papers—such as Paper 23—focus more on the theoretical elements of customization, while others are more practical and highlight no-code platforms and real-world applications.
+                Differeneces: Although AI for automation in web development is the main topic of discussion, some papers—such as Paper 23—focus more on the theoretical elements of customization, while others are more practical and highlight no-code platforms and real-world applications.
             </p>
           </div>
 
@@ -70,6 +81,17 @@ const Content = () => {
             <p>
                 This Category discusses the application of AI to the development of customized user journeys and adaptable web interfaces. Customizing online applications to each user's profile based on behavioral data, interaction history, and preferences is the main focus of the problem definition. The studies suggest using AI algorithms to dynamically modify web applications' features, layout, and content, such as clustering and recommendation systems. Paper 8 delves into the evolution of adaptable interfaces through real-time user activities, whereas Paper 24 investigates the role of artificial intelligence in forecasting future user demands for adaptive content. Prototyping, real-world input, and user testing are some of the methodologies used to gauge how well AI creates adaptable interfaces.
             </p>
+            <div className="cat3">
+            <img className="cat3img" src={graph12} alt="graph about User Personalization"></img>
+            <div>
+            <p>
+              The accompanying scatter plot visualizes the interaction between AI-driven personalization levels and user engagement, providing empirical support to our discussion on the dynamic adaptation of web applications. This visualization helps to concretely illustrate how personalization directly impacts user engagement, reinforcing the importance of adaptive systems in personalizing user experiences.
+            </p>
+            <p>
+                This comprehensive view underscored by the depicted data, underlines the transformative potential of AI in enhancing and personalizing the digital landscape ensuring that adaptive systems not only cater to but also evolve with user preferences, thereby fostering a more engaging and tailored online experience.
+            </p>
+            </div>
+            </div>
           </div>
 
           <div className="content-section" id="Category4">
@@ -78,7 +100,7 @@ const Content = () => {
                 This category of articles focuses on using AI to improve business context decision-making, particularly in the domains of product creation, market intelligence, and consumer insights. The challenge is defined consistently throughout the papers, with organizations needing to increase product innovation and extract meaningful insights by quickly analyzing massive datasets.
             </p>
             <p>
-                Changes: All the papers center around the use of AI in business, but they cover different topics. For example, some papers concentrate on product development, while others prioritize customer insights.
+                Differences: All the papers center around the use of AI in business, but they cover different topics. For example, some papers concentrate on product development, while others prioritize customer insights.
             </p>
           </div>
 
